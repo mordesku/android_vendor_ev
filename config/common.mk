@@ -75,3 +75,5 @@ endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.romversion=$(ROM_VERSION)
+
+$(call inherit-product-if-exists, vendor/extra/product.mk)
